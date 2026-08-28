@@ -15,6 +15,6 @@ export const team: TeamMember[] = [
     name: "Dra. Jaíne Dias Ribeiro de Abreu",
     role: "Doenças do Aparelho Digestivo",
     image: "/images/team/05.jpg",
-    imagePosition: "object-[center_20%]",
+    imagePosition: "object-[center_12%]",
   },
 ];
