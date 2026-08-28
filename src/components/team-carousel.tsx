@@ -6,9 +6,43 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
+import { cn } from "@/lib/utils";
 import type { TeamMember } from "@/data/team";
 
+function TeamCard({ member }: { member: TeamMember }) {
+  return (
+    <div className="group w-full sm:w-72 overflow-hidden rounded-2xl border border-border-soft bg-white shadow-sm transition hover:shadow-xl hover:shadow-ink-900/10">
+      <div className="relative h-64 w-full overflow-hidden">
+        <Image
+          src={member.image}
+          alt={member.name}
+          fill
+          sizes="(min-width: 1024px) 25vw, 50vw"
+          className={cn(
+            "object-cover transition-transform duration-500 group-hover:scale-105",
+            member.imagePosition,
+          )}
+        />
+      </div>
+      <div className="p-5">
+        <h4 className="font-bold text-ink-900">{member.name}</h4>
+        <p className="mt-1 text-sm text-ink-500">{member.role}</p>
+      </div>
+    </div>
+  );
+}
+
 export function TeamCarousel({ members }: { members: TeamMember[] }) {
+  if (members.length <= 4) {
+    return (
+      <div className="flex flex-wrap justify-center gap-6">
+        {members.map((member) => (
+          <TeamCard key={member.name} member={member} />
+        ))}
+      </div>
+    );
+  }
+
   return (
     <div className="relative">
       <Swiper
@@ -32,7 +66,10 @@ export function TeamCarousel({ members }: { members: TeamMember[] }) {
                   alt={member.name}
                   fill
                   sizes="(min-width: 1024px) 25vw, 50vw"
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  className={cn(
+                    "object-cover transition-transform duration-500 group-hover:scale-105",
+                    member.imagePosition,
+                  )}
                 />
               </div>
               <div className="p-5">

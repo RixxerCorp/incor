@@ -2,6 +2,7 @@ export interface TeamMember {
   name: string;
   role: string;
   image: string;
+  imagePosition?: string;
 }
 
 export const team: TeamMember[] = [
@@ -11,18 +12,9 @@ export const team: TeamMember[] = [
     image: "/images/team/01.jpg",
   },
   {
-    name: "Dra. Lorena Fonseca",
-    role: "Clínica Médica | Cardiologia | Hemodinâmica",
-    image: "/images/team/02.jpg",
-  },
-  {
-    name: "Dra. Carmen Carneiro",
-    role: "Clínica Médica | Cardiologia",
-    image: "/images/team/03.jpg",
-  },
-  {
-    name: "Dr. Alex Ribeiro Pinto",
-    role: "Medicina da Família | Geriatria",
-    image: "/images/team/04.jpg",
+    name: "Dra. Jaíne Dias Ribeiro de Abreu",
+    role: "Doenças do Aparelho Digestivo",
+    image: "/images/team/05.jpg",
+    imagePosition: "object-[center_20%]",
   },
 ];

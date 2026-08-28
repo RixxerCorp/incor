@@ -321,7 +321,7 @@ export const services: ServiceEntry[] = [
   {
     "slug": "eletrocardiografia",
     "category": "exame",
-    "title": "Eletrocardiografia",
+    "title": "ECG (Eletrocardiograma)",
     "image": "/images/exames/ecg.jpeg",
     "imageAlt": "Eletrocardiografia",
     "content": [
@@ -350,7 +350,7 @@ export const services: ServiceEntry[] = [
   {
     "slug": "ecocardiografia",
     "category": "exame",
-    "title": "Ecocardiografia",
+    "title": "Ecocardiograma Transtorácico",
     "image": "/images/exames/ecocardiograma.jpeg",
     "imageAlt": "Ecocardiografia",
     "content": [
@@ -694,7 +694,7 @@ export const services: ServiceEntry[] = [
   {
     "slug": "teste-ergometrico-computadorizado",
     "category": "exame",
-    "title": "Teste Ergométrico Computadorizado",
+    "title": "Teste Ergométrico",
     "image": "/images/exames/teste-ergometrico-computadorizado.jpeg",
     "imageAlt": "Teste Ergométrico Computadorizado",
     "content": [
@@ -811,95 +811,6 @@ export const services: ServiceEntry[] = [
     ]
   },
   {
-    "slug": "cateterismo",
-    "category": "exame",
-    "title": "Cateterismo",
-    "image": "/images/exames/cateterismo.jpeg",
-    "imageAlt": "Cateterismo",
-    "content": [
-      {
-        "type": "paragraph",
-        "text": "O cateterismo cardíaco é um exame que se utiliza de cateteres para avaliar invasivamente o coração. É realizado pelo hemodinamicista ou médico cardiologista especializado em hemodinâmica e tem como principal modalidade a cineangiocoronariografia, ou angiografia coronária, que é um exame complementar para avaliar a anatomia das artérias coronárias."
-      },
-      {
-        "type": "paragraph",
-        "text": "Através desse cateterismo é possível identificar placas de gordura e dimensionar o grau de obstrução que essas placas impõem à artéria coronária. No infarto agudo do miocárdio, a cineangiocoronariografia mudou radicalmente o prognóstico dos pacientes, permitindo angioplastia precisa no vaso culpado com abertura da artéria precoce e restabelecimento do fluxo de sangue para o músculo cardíaco."
-      },
-      {
-        "type": "paragraph",
-        "text": "Embora o cateterismo cardíaco tenha seu protagonismo no tratamento da doença arterial coronariana aguda (infarto do miocárdio) e crônica (angina estável) através da cineangiocoronariografia, outros procedimentos podem ser realizados através de cateterismo cardíaco: São eles:"
-      },
-      {
-        "type": "list",
-        "items": [
-          "Desobstrução de válvulas cardíacas",
-          "Implante de próteses valvares",
-          "Estudo de arritmias cardíacas",
-          "Ablação de arritmias",
-          "Implante de marca-passo",
-          "Biopsias cardíacas",
-          "Tratamento de problemas congênitos",
-          "Entre outras situações"
-        ]
-      },
-      {
-        "type": "paragraph",
-        "text": "A indicação de qualquer tratamento deve partir do cardiologista que atende a esse paciente."
-      },
-      {
-        "type": "heading",
-        "text": "Como é feito o cateterismo?"
-      },
-      {
-        "type": "paragraph",
-        "text": "O procedimento é feito em ambiente hospitalar e com o paciente acordado, na maioria das vezes. É administrada anestesia local na preparação da cateterização seguida da inserção de um cateter no sistema vascular a ser utilizado no procedimento."
-      },
-      {
-        "type": "paragraph",
-        "text": "Para obter a imagem com precisão, utiliza-se contraste iodado. Em casos de alergia a iodo, devemos reconsiderar a indicação do exame e se for imprescindível, a dessensibilização com antialérgicos deve ser realizada e iniciada três dias antes do exame para minimizar quaisquer fatores de risco ao paciente durante e no após o cateterismo."
-      },
-      {
-        "type": "paragraph",
-        "text": "Na cineangiocoronariografia a pulsão pode ser na artéria radial (punho) ou na artéria femoral (virilha). O procedimento dura em média 30 minutos e o paciente é monitorizado para obter dados de frequência cardíaca, pressão arterial e oxigenação durante o procedimento."
-      },
-      {
-        "type": "paragraph",
-        "text": "Nos casos de cineangiocoronariografia sem a necessidade de angioplastia, os pacientes recebem alta hospitalar no mesmo dia, de quatro a seis horas após o procedimento. Em casos mais sérios, é necessário maior tempo de internamento."
-      },
-      {
-        "type": "heading",
-        "text": "Quais são os riscos do cateterismo?"
-      },
-      {
-        "type": "paragraph",
-        "text": "Em medicina não devemos avaliar somente os riscos, nem somente os benefícios. A melhor forma de encarar um procedimento médico é definir a relação risco/benefício."
-      },
-      {
-        "type": "paragraph",
-        "text": "Um exemplo claro é o infarto agudo do miocárdio, em que nenhum risco supera o benefício de abrir a artéria coronária de forma eficaz e precoce como é feito na angioplastia."
-      },
-      {
-        "type": "paragraph",
-        "text": "Contudo, é importante conhecer os principais riscos inerentes ao cateterismo cardíaco:"
-      },
-      {
-        "type": "list",
-        "items": [
-          "Acidente Vascular Cerebral (AVC)",
-          "Complicações Vasculares pela punção e manipulação dos cateteres",
-          "Alergia ao iodo",
-          "Nefrotoxicidade pelo contraste",
-          "Infecção do sítio de punção",
-          "Perfuração do coração ou da coronária"
-        ]
-      },
-      {
-        "type": "paragraph",
-        "text": "Essas são apenas algumas informações relativas ao cateterismo. É importante ter aconselhamento junto a um cardiologista para que ocorra a promoção da saúde do coração."
-      }
-    ]
-  },
-  {
     "slug": "consultas-e-check-up",
     "category": "exame",
     "title": "Consultas e Check-Up",
@@ -917,6 +828,42 @@ export const services: ServiceEntry[] = [
       {
         "type": "paragraph",
         "text": "Em suma, o check-up cardiológico deve ser realizado em homens a partir de 45 anos de idade e em mulheres quando se inicia a menopausa. Isso porque, estatisticamente, estas são as fases da vida em que cresce o risco de desenvolvimento de problemas cardíacos."
+      }
+    ]
+  },
+  // PLACEHOLDER — texto genérico, ainda não validado pelo time médico da clínica.
+  {
+    "slug": "endoscopia-e-colonoscopia",
+    "category": "exame",
+    "title": "Endoscopia e Colonoscopia",
+    "image": "/images/exames/clinica-medica.jpeg",
+    "imageAlt": "Endoscopia e Colonoscopia",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "A endoscopia e a colonoscopia são exames que permitem a visualização direta do interior do tubo digestivo, auxiliando no diagnóstico e acompanhamento de diversas condições do aparelho digestivo."
+      },
+      {
+        "type": "paragraph",
+        "text": "Conteúdo em revisão pela equipe médica da clínica — texto provisório."
+      }
+    ]
+  },
+  // PLACEHOLDER — texto genérico, ainda não validado pelo time médico da clínica.
+  {
+    "slug": "ultrassom-doppler-vascular",
+    "category": "exame",
+    "title": "Ultrassom Doppler Vascular",
+    "image": "/images/exames/hemodinamica.jpeg",
+    "imageAlt": "Ultrassom Doppler Vascular",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "O ultrassom Doppler vascular é um exame de imagem não invasivo que avalia o fluxo sanguíneo em artérias e veias, auxiliando na identificação de obstruções, tromboses e outras alterações vasculares."
+      },
+      {
+        "type": "paragraph",
+        "text": "Conteúdo em revisão pela equipe médica da clínica — texto provisório."
       }
     ]
   }
