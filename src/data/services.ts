@@ -764,7 +764,6 @@ export const services: ServiceEntry[] = [
       }
     ]
   },
-  // PLACEHOLDER — texto genérico, ainda não validado pelo time médico da clínica.
   {
     "slug": "endoscopia-digestiva",
     "category": "exame",
@@ -774,15 +773,40 @@ export const services: ServiceEntry[] = [
     "content": [
       {
         "type": "paragraph",
-        "text": "A endoscopia digestiva é um exame que permite a visualização direta do interior do tubo digestivo, auxiliando no diagnóstico e acompanhamento de diversas condições do aparelho digestivo. Realizada pela Dra. Jaíne Dias Ribeiro de Abreu."
+        "text": "A endoscopia digestiva alta é um exame que permite observar diretamente o esôfago, o estômago e o duodeno, ajudando a identificar alterações do trato digestivo e, em alguns casos, realizar pequenos tratamentos durante o próprio procedimento. Realizada pela Dra. Jaíne Dias Ribeiro de Abreu."
+      },
+      {
+        "type": "heading",
+        "text": "Como é feita"
       },
       {
         "type": "paragraph",
-        "text": "Conteúdo em revisão pela equipe médica da clínica — texto provisório."
+        "text": "O exame utiliza o endoscópio, um tubo fino e flexível equipado com câmera e luz na ponta, introduzido pela boca até o trato digestivo alto. É realizado com sedação leve, administrada por via endovenosa, garantindo conforto ao paciente. A duração média é de 10 a 20 minutos, podendo variar conforme a necessidade de procedimentos adicionais, como biópsias."
+      },
+      {
+        "type": "heading",
+        "text": "Preparo"
+      },
+      {
+        "type": "paragraph",
+        "text": "É necessário jejum de 8 a 12 horas antes do exame, com restrição de líquidos nas 4 horas anteriores. O uso de medicamentos deve ser ajustado previamente com orientação médica, garantindo que o procedimento seja realizado com segurança."
+      },
+      {
+        "type": "heading",
+        "text": "Indicações"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Dor abdominal persistente",
+          "Refluxo gastroesofágico severo ou persistente",
+          "Dificuldade ou dor para engolir",
+          "Perda de peso inexplicada ou alterações no apetite",
+          "Investigação de sangramentos digestivos"
+        ]
       }
     ]
   },
-  // PLACEHOLDER — texto genérico, ainda não validado pelo time médico da clínica.
   {
     "slug": "checkup-digestivo",
     "category": "exame",
@@ -792,15 +816,31 @@ export const services: ServiceEntry[] = [
     "content": [
       {
         "type": "paragraph",
-        "text": "O checkup digestivo é uma bateria de exames e avaliações voltada para a saúde do aparelho digestivo, auxiliando na prevenção e no diagnóstico precoce de doenças. Realizado pela Dra. Jaíne Dias Ribeiro de Abreu."
+        "text": "O checkup digestivo é uma avaliação médica preventiva que analisa a saúde do sistema digestivo, do esôfago ao intestino, com o objetivo de identificar alterações ainda em fase inicial, permitindo tratamento precoce e evitando complicações futuras. Realizado pela Dra. Jaíne Dias Ribeiro de Abreu."
+      },
+      {
+        "type": "heading",
+        "text": "O que inclui"
       },
       {
         "type": "paragraph",
-        "text": "Conteúdo em revisão pela equipe médica da clínica — texto provisório."
+        "text": "A avaliação começa com uma consulta com a gastroenterologista, que analisa os sintomas relatados e o histórico do paciente antes de solicitar os exames complementares necessários, que podem incluir:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Endoscopia digestiva alta, para avaliar esôfago, estômago e duodeno",
+          "Exames de sangue e fezes, para investigar infecções, parasitas e sangue oculto",
+          "Ultrassonografia abdominal, quando indicada",
+          "Outros exames complementares, conforme avaliação clínica"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "O checkup digestivo é especialmente recomendado para quem apresenta sintomas frequentes, como dor abdominal, refluxo ou alterações intestinais, e também como acompanhamento preventivo de rotina."
       }
     ]
   },
-  // PLACEHOLDER — texto genérico, ainda não validado pelo time médico da clínica.
   {
     "slug": "ultrassom-doppler-vascular",
     "category": "exame",
@@ -810,15 +850,22 @@ export const services: ServiceEntry[] = [
     "content": [
       {
         "type": "paragraph",
-        "text": "O ultrassom Doppler vascular é um exame de imagem não invasivo que avalia o fluxo sanguíneo em artérias e veias, auxiliando na identificação de obstruções, tromboses e outras alterações vasculares."
+        "text": "O ultrassom Doppler vascular é um exame não invasivo que utiliza ondas sonoras de alta frequência para avaliar o fluxo sanguíneo em artérias e veias, auxiliando no diagnóstico de doenças como tromboses, varizes, estenoses, aneurismas e outras alterações da circulação."
+      },
+      {
+        "type": "heading",
+        "text": "Como é feito"
       },
       {
         "type": "paragraph",
-        "text": "Conteúdo em revisão pela equipe médica da clínica — texto provisório."
+        "text": "O paciente permanece deitado enquanto o médico desliza o transdutor sobre a região a ser avaliada, com o auxílio de um gel condutor. O aparelho emite ondas sonoras que refletem no sangue em movimento, permitindo visualizar o fluxo em tempo real."
+      },
+      {
+        "type": "paragraph",
+        "text": "É um exame simples, indolor, com duração aproximada de meia hora, que não utiliza radiação nem contraste, podendo ser realizado inclusive por gestantes."
       }
     ]
   },
-  // PLACEHOLDER — texto genérico, ainda não validado pelo time médico da clínica.
   {
     "slug": "polissonografia",
     "category": "exame",
@@ -828,15 +875,36 @@ export const services: ServiceEntry[] = [
     "content": [
       {
         "type": "paragraph",
-        "text": "A polissonografia é um exame que monitora a atividade cerebral, cardíaca e respiratória durante o sono, auxiliando no diagnóstico de distúrbios como apneia do sono, insônia e outros problemas relacionados ao sono."
+        "text": "A polissonografia é o exame considerado padrão-ouro para avaliar a qualidade do sono e identificar distúrbios relacionados a ele. É indolor e não invasivo, realizado por meio de eletrodos fixados na pele que monitoram a atividade respiratória, muscular, cardíaca e cerebral durante uma noite de sono."
+      },
+      {
+        "type": "heading",
+        "text": "Como é feita"
       },
       {
         "type": "paragraph",
-        "text": "Conteúdo em revisão pela equipe médica da clínica — texto provisório."
+        "text": "O exame pode ser realizado em laboratório especializado ou no domicílio do paciente, e acompanha uma noite inteira de sono. Ao final, é gerado um relatório com parâmetros como frequência cardíaca, movimento dos olhos, padrão respiratório e atividade muscular."
+      },
+      {
+        "type": "heading",
+        "text": "Indicações"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Sonolência excessiva durante o dia",
+          "Ronco excessivo",
+          "Suspeita de apneia obstrutiva do sono",
+          "Síndrome das pernas inquietas",
+          "Insônia e outras queixas relacionadas ao sono"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "A polissonografia é fundamental na investigação da apneia obstrutiva do sono, condição em que ocorrem pausas repetidas na respiração durante a noite, reduzindo a oxigenação do organismo e fragmentando o descanso."
       }
     ]
   },
-  // PLACEHOLDER — texto genérico, ainda não validado pelo time médico da clínica.
   {
     "slug": "ecocardiograma-transesofagico",
     "category": "exame",
@@ -846,15 +914,34 @@ export const services: ServiceEntry[] = [
     "content": [
       {
         "type": "paragraph",
-        "text": "O ecocardiograma transesofágico é um exame que avalia o coração por meio de um transdutor introduzido pelo esôfago, permitindo imagens mais detalhadas de suas estruturas. É realizado com sedação e acompanhamento da equipe de anestesia."
+        "text": "O ecocardiograma transesofágico é um exame de ultrassom do coração realizado com uma sonda inserida pelo esôfago, permitindo imagens mais detalhadas das estruturas cardíacas. Diferente do ecocardiograma transtorácico, feito pela parede do tórax, o exame transesofágico oferece maior resolução por não sofrer interferência dos ossos ou pulmões, sendo indicado quando o exame convencional não é suficiente."
+      },
+      {
+        "type": "heading",
+        "text": "Como é feito"
       },
       {
         "type": "paragraph",
-        "text": "Conteúdo em revisão pela equipe médica da clínica — texto provisório."
+        "text": "O médico insere a sonda pela boca até o esôfago, região próxima ao coração, onde o transdutor capta as imagens. O procedimento é realizado com sedação leve por via endovenosa e acompanhamento da equipe de anestesia, garantindo conforto e segurança ao paciente."
+      },
+      {
+        "type": "heading",
+        "text": "Preparo"
+      },
+      {
+        "type": "paragraph",
+        "text": "É necessário jejum de pelo menos 6 horas antes do exame, tanto para prevenir riscos associados à sedação quanto para melhorar a qualidade das imagens. Recomenda-se o uso de roupas confortáveis e a remoção de joias, piercings e próteses dentárias antes do procedimento."
+      },
+      {
+        "type": "heading",
+        "text": "Riscos"
+      },
+      {
+        "type": "paragraph",
+        "text": "É, em geral, um exame seguro quando realizado por profissionais treinados. Pode haver desconforto na garganta, náuseas ou irritação local, especialmente logo após o exame. Complicações mais sérias, como lesões no esôfago ou reações à sedação, são raras."
       }
     ]
   },
-  // PLACEHOLDER — texto genérico, ainda não validado pelo time médico da clínica.
   {
     "slug": "ecocardiograma-com-estresse-farmacologico",
     "category": "exame",
@@ -864,15 +951,31 @@ export const services: ServiceEntry[] = [
     "content": [
       {
         "type": "paragraph",
-        "text": "O ecocardiograma com estresse farmacológico avalia a função do coração após a administração de medicações específicas que simulam o efeito do esforço físico, sendo um exame importante na investigação de doença arterial coronária."
+        "text": "O ecocardiograma com estresse farmacológico combina o ultrassom Doppler com a administração de medicações que aceleram os batimentos cardíacos, de forma semelhante ao efeito de um esforço físico, sem que o paciente precise se exercitar. É uma alternativa importante para quem tem dificuldade de realizar exercícios ou cujo traçado dificulte a análise por outros métodos."
+      },
+      {
+        "type": "heading",
+        "text": "Indicações"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Investigação de isquemia miocárdica, sobretudo em pacientes com dificuldade para exercício físico",
+          "Avaliação de viabilidade miocárdica",
+          "Acompanhamento após cirurgias cardíacas",
+          "Suspeita de doença arterial coronariana"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Contraindicações"
       },
       {
         "type": "paragraph",
-        "text": "Conteúdo em revisão pela equipe médica da clínica — texto provisório."
+        "text": "Entre as principais contraindicações estão estenose aórtica crítica, cardiomiopatia hipertrófica, arritmias ventriculares instáveis, distúrbios de condução atrioventricular, síndromes isquêmicas instáveis e gestação. A indicação do exame e do tipo de medicação utilizada deve ser sempre avaliada pelo cardiologista."
       }
     ]
   },
-  // PLACEHOLDER — texto genérico, ainda não validado pelo time médico da clínica.
   {
     "slug": "strain",
     "category": "exame",
@@ -882,11 +985,11 @@ export const services: ServiceEntry[] = [
     "content": [
       {
         "type": "paragraph",
-        "text": "O strain é uma técnica de ecocardiograma que avalia a deformação do músculo cardíaco, permitindo identificar alterações sutis na função do coração antes mesmo de sinais mais evidentes aparecerem em exames convencionais."
+        "text": "O strain miocárdico é uma técnica avançada que complementa o ecocardiograma convencional, avaliando a deformação do músculo cardíaco durante os movimentos de contração e relaxamento. A análise é feita pelo método de speckle tracking, que acompanha marcadores acústicos naturais do miocárdio ao longo do ciclo cardíaco."
       },
       {
         "type": "paragraph",
-        "text": "Conteúdo em revisão pela equipe médica da clínica — texto provisório."
+        "text": "Essa técnica permite identificar disfunções contráteis precoces e regionais com maior sensibilidade do que os métodos tradicionais, sendo especialmente útil em situações nas quais o coração pode já estar sendo afetado mesmo com a fração de ejeção ainda normal — como no acompanhamento de pacientes em quimioterapia com medicações cardiotóxicas e em portadores de doenças das valvas cardíacas."
       }
     ]
   }
