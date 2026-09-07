@@ -17,4 +17,10 @@ export const team: TeamMember[] = [
     image: "/images/team/05.jpg",
     imagePosition: "object-[center_12%]",
   },
+  // PLACEHOLDER — nome, especialidade, CRM e foto ainda não confirmados pelo cliente.
+  {
+    name: "Dr. Hugo",
+    role: "Especialidade a confirmar",
+    image: "/images/team/04.jpg",
+  },
 ];

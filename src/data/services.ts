@@ -252,19 +252,6 @@ export const services: ServiceEntry[] = [
     ]
   },
   {
-    "slug": "medicina-da-familia-e-geriatria",
-    "category": "especialidade",
-    "title": "Medicina da Família e Geriatria",
-    "image": "/images/exames/medicina-da-familia.jpeg",
-    "imageAlt": "Medicina da Família",
-    "content": [
-      {
-        "type": "paragraph",
-        "text": "Medicina Familiar, Medicina Geral e Comunitária e Medicina de Família e Comunidade são diferentes denominações para a especialidade médica que se destina a oferecer uma assistência de caráter integral, contínuo e personalizado para indivíduos, famílias e organizações comunitárias."
-      }
-    ]
-  },
-  {
     "slug": "eletrocardiografia",
     "category": "exame",
     "title": "ECG (Eletrocardiograma)",
@@ -782,7 +769,7 @@ export const services: ServiceEntry[] = [
     "slug": "endoscopia-digestiva",
     "category": "exame",
     "title": "Endoscopia Digestiva",
-    "image": "/images/exames/clinica-medica.jpeg",
+    "image": "/images/exames/endoscopia-digestiva.jpg",
     "imageAlt": "Endoscopia Digestiva",
     "content": [
       {
@@ -842,6 +829,60 @@ export const services: ServiceEntry[] = [
       {
         "type": "paragraph",
         "text": "A polissonografia é um exame que monitora a atividade cerebral, cardíaca e respiratória durante o sono, auxiliando no diagnóstico de distúrbios como apneia do sono, insônia e outros problemas relacionados ao sono."
+      },
+      {
+        "type": "paragraph",
+        "text": "Conteúdo em revisão pela equipe médica da clínica — texto provisório."
+      }
+    ]
+  },
+  // PLACEHOLDER — texto genérico, ainda não validado pelo time médico da clínica.
+  {
+    "slug": "ecocardiograma-transesofagico",
+    "category": "exame",
+    "title": "Ecocardiograma Transesofágico",
+    "image": "/images/exames/ecocardiograma.jpeg",
+    "imageAlt": "Ecocardiograma Transesofágico",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "O ecocardiograma transesofágico é um exame que avalia o coração por meio de um transdutor introduzido pelo esôfago, permitindo imagens mais detalhadas de suas estruturas. É realizado com sedação e acompanhamento da equipe de anestesia."
+      },
+      {
+        "type": "paragraph",
+        "text": "Conteúdo em revisão pela equipe médica da clínica — texto provisório."
+      }
+    ]
+  },
+  // PLACEHOLDER — texto genérico, ainda não validado pelo time médico da clínica.
+  {
+    "slug": "ecocardiograma-com-estresse-farmacologico",
+    "category": "exame",
+    "title": "Ecocardiograma com Estresse Farmacológico",
+    "image": "/images/exames/ecocardiograma.jpeg",
+    "imageAlt": "Ecocardiograma com Estresse Farmacológico",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "O ecocardiograma com estresse farmacológico avalia a função do coração após a administração de medicações específicas que simulam o efeito do esforço físico, sendo um exame importante na investigação de doença arterial coronária."
+      },
+      {
+        "type": "paragraph",
+        "text": "Conteúdo em revisão pela equipe médica da clínica — texto provisório."
+      }
+    ]
+  },
+  // PLACEHOLDER — texto genérico, ainda não validado pelo time médico da clínica.
+  {
+    "slug": "strain",
+    "category": "exame",
+    "title": "Strain",
+    "image": "/images/exames/ecodopplercardiografia.jpg",
+    "imageAlt": "Strain",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "O strain é uma técnica de ecocardiograma que avalia a deformação do músculo cardíaco, permitindo identificar alterações sutis na função do coração antes mesmo de sinais mais evidentes aparecerem em exames convencionais."
       },
       {
         "type": "paragraph",

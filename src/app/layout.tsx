@@ -28,7 +28,6 @@ export const metadata: Metadata = {
     "Marca Passo",
     "Cardiologia do Esporte",
     "Ecodoplercardiografia",
-    "Medicina da Família e Geriatria",
     "Eletrocardiografia",
     "Ecocardiografia",
     "Holter 24h",
