@@ -82,10 +82,10 @@ export function Hero() {
           <div className="absolute -inset-6 rounded-[2.5rem] bg-gradient-to-br from-brand-600/30 via-transparent to-transparent blur-2xl" />
           <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-2xl">
             <Image
-              src="/images/photos/doctor-01.png"
-              alt="Dr. Giovani Dias"
-              width={640}
-              height={760}
+              src="/images/fachada.jpg"
+              alt="Fachada do Instituto do Coração Circuito das Águas"
+              width={960}
+              height={600}
               priority
               className="h-full w-full object-cover"
             />
