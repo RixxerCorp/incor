@@ -252,60 +252,6 @@ export const services: ServiceEntry[] = [
     ]
   },
   {
-    "slug": "hemodinamica",
-    "category": "especialidade",
-    "title": "Hemodinâmica",
-    "image": "/images/exames/hemodinamica.jpeg",
-    "imageAlt": "Hemodinâmica",
-    "content": [
-      {
-        "type": "paragraph",
-        "text": "A hemodinâmica é uma área de atuação que se propõe a diagnosticar e tratar disfunções neurológicas, endovasculares e cardiológicas, como obstruções, aneurismas e tromboses. As técnicas de hemodinâmica utilizam cateteres para analisar os vasos sanguíneos, o que a torna um procedimento seguro e minimamente invasivo."
-      },
-      {
-        "type": "heading",
-        "text": "Quando são indicados exames hemodinâmicos?"
-      },
-      {
-        "type": "paragraph",
-        "text": "Os procedimentos hemodinâmicos são recomendados para pacientes com uma série de questões, desde quadros leves até doenças extremamente complexas."
-      },
-      {
-        "type": "paragraph",
-        "text": "A hemodinâmica é utilizada em uma série de especialidades médicas. Na cardiologia, por exemplo, pode ser aplicada para o diagnóstico e tratamento de quadros de infarto; angina (dores no peito); obstruções (entupimentos) nas artérias do coração; aneurismas; más-formações congênitas; arritmias graves e disfunções valvares (mau funcionamento das válvulas do coração), sendo possível, inclusive, o implante (correção ou substituição de válvulas do coração) por meio de cateterismo. Na cirurgia vascular, é possível abordar entupimentos nas artérias ou veias e tratar aneurismas de aorta, entre outros procedimentos. Já na neurocirurgia, a hemodinâmica ajuda no tratamento de quadros de AVC isquêmico; aneurismas cerebrais; más-formações congênitas e obstruções tanto das artérias carótidas como de vasos cerebrais. Dessa forma, a hemodinâmica permite a terapêutica de doenças graves, substituindo cirurgias convencionais, mesmo as mais complexas."
-      },
-      {
-        "type": "paragraph",
-        "text": "Entre os exames contemplados pela hemodinâmica estão:"
-      },
-      {
-        "type": "list",
-        "items": [
-          "cateterismo – utiliza cateteres com a finalidade de identificar a presença de obstruções (entupimentos) nas artérias do coração ou mau funcionamento das válvulas do coração, entre outras funções",
-          "angioplastia – atua nas obstruções das artérias do coração, das carótidas, dos vasos cerebrais ou periféricos, por meio da colocação de stents (malhas metálicas altamente especializadas que protegem a artéria tratada)",
-          "implante de válvulas do coração, por intermédio de procedimentos minimamente invasivos",
-          "arteriografia – avalia a presença de entupimentos ou aneurismas nas carótidas, artérias cerebrais ou periféricas, bem como nas veias"
-        ]
-      },
-      {
-        "type": "paragraph",
-        "text": "A indicação do cateterismo eletivo e de uma eventual angioplastia, por exemplo, é feita quando o cardiologista – depois de uma avaliação clínica minuciosa e de exames complementares – identifica alterações clínicas em exames não invasivos, como teste ergométrico; cintilografia; ecocardiograma de estresse; ressonância cardíaca ou angiotomografia coronária. Tais procedimentos também podem ser indicados em casos de urgência, como no infarto agudo do miocárdio."
-      },
-      {
-        "type": "heading",
-        "text": "Como fazer exames hemodinâmicos?"
-      },
-      {
-        "type": "paragraph",
-        "text": "Pacientes que têm indicação para passar por exames de hemodinâmica devem permanecer em jejum por seis a oito horas, não ingerir bebidas alcoólicas um dia antes e suspender o uso de alguns medicamentos (somente sob orientação médica)."
-      },
-      {
-        "type": "paragraph",
-        "text": "A maioria dos procedimentos é feita por meio de uma pequena punção no braço ou na perna, por onde ocorre a inserção de cateteres extremamente finos que permitem a visualização das estruturas. Geralmente, sedação e anestesia local são necessárias, para garantir o conforto do paciente e a segurança do procedimento."
-      }
-    ]
-  },
-  {
     "slug": "medicina-da-familia-e-geriatria",
     "category": "especialidade",
     "title": "Medicina da Família e Geriatria",
@@ -833,15 +779,33 @@ export const services: ServiceEntry[] = [
   },
   // PLACEHOLDER — texto genérico, ainda não validado pelo time médico da clínica.
   {
-    "slug": "endoscopia-e-colonoscopia",
+    "slug": "endoscopia-digestiva",
     "category": "exame",
-    "title": "Endoscopia e Colonoscopia",
+    "title": "Endoscopia Digestiva",
     "image": "/images/exames/clinica-medica.jpeg",
-    "imageAlt": "Endoscopia e Colonoscopia",
+    "imageAlt": "Endoscopia Digestiva",
     "content": [
       {
         "type": "paragraph",
-        "text": "A endoscopia e a colonoscopia são exames que permitem a visualização direta do interior do tubo digestivo, auxiliando no diagnóstico e acompanhamento de diversas condições do aparelho digestivo."
+        "text": "A endoscopia digestiva é um exame que permite a visualização direta do interior do tubo digestivo, auxiliando no diagnóstico e acompanhamento de diversas condições do aparelho digestivo. Realizada pela Dra. Jaíne Dias Ribeiro de Abreu."
+      },
+      {
+        "type": "paragraph",
+        "text": "Conteúdo em revisão pela equipe médica da clínica — texto provisório."
+      }
+    ]
+  },
+  // PLACEHOLDER — texto genérico, ainda não validado pelo time médico da clínica.
+  {
+    "slug": "checkup-digestivo",
+    "category": "exame",
+    "title": "Checkup Digestivo",
+    "image": "/images/exames/clinica-medica.jpeg",
+    "imageAlt": "Checkup Digestivo",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "O checkup digestivo é uma bateria de exames e avaliações voltada para a saúde do aparelho digestivo, auxiliando na prevenção e no diagnóstico precoce de doenças. Realizado pela Dra. Jaíne Dias Ribeiro de Abreu."
       },
       {
         "type": "paragraph",
@@ -854,12 +818,30 @@ export const services: ServiceEntry[] = [
     "slug": "ultrassom-doppler-vascular",
     "category": "exame",
     "title": "Ultrassom Doppler Vascular",
-    "image": "/images/exames/hemodinamica.jpeg",
+    "image": "/images/exames/doppler-carotida.jpeg",
     "imageAlt": "Ultrassom Doppler Vascular",
     "content": [
       {
         "type": "paragraph",
         "text": "O ultrassom Doppler vascular é um exame de imagem não invasivo que avalia o fluxo sanguíneo em artérias e veias, auxiliando na identificação de obstruções, tromboses e outras alterações vasculares."
+      },
+      {
+        "type": "paragraph",
+        "text": "Conteúdo em revisão pela equipe médica da clínica — texto provisório."
+      }
+    ]
+  },
+  // PLACEHOLDER — texto genérico, ainda não validado pelo time médico da clínica.
+  {
+    "slug": "polissonografia",
+    "category": "exame",
+    "title": "Polissonografia",
+    "image": "/images/exames/clinica-medica.jpeg",
+    "imageAlt": "Polissonografia",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "A polissonografia é um exame que monitora a atividade cerebral, cardíaca e respiratória durante o sono, auxiliando no diagnóstico de distúrbios como apneia do sono, insônia e outros problemas relacionados ao sono."
       },
       {
         "type": "paragraph",
