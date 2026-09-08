@@ -811,7 +811,7 @@ export const services: ServiceEntry[] = [
     "slug": "checkup-digestivo",
     "category": "exame",
     "title": "Checkup Digestivo",
-    "image": "/images/exames/clinica-medica.jpeg",
+    "image": "/images/exames/checkup-digestivo.jpg",
     "imageAlt": "Checkup Digestivo",
     "content": [
       {
@@ -909,7 +909,7 @@ export const services: ServiceEntry[] = [
     "slug": "ecocardiograma-transesofagico",
     "category": "exame",
     "title": "Ecocardiograma Transesofágico",
-    "image": "/images/exames/ecocardiograma.jpeg",
+    "image": "/images/exames/ecocardiograma-transesofagico.jpg",
     "imageAlt": "Ecocardiograma Transesofágico",
     "content": [
       {
@@ -946,7 +946,7 @@ export const services: ServiceEntry[] = [
     "slug": "ecocardiograma-com-estresse-farmacologico",
     "category": "exame",
     "title": "Ecocardiograma com Estresse Farmacológico",
-    "image": "/images/exames/ecocardiograma.jpeg",
+    "image": "/images/exames/ecocardiograma-estresse-farmacologico.jpg",
     "imageAlt": "Ecocardiograma com Estresse Farmacológico",
     "content": [
       {
@@ -980,7 +980,7 @@ export const services: ServiceEntry[] = [
     "slug": "strain",
     "category": "exame",
     "title": "Strain",
-    "image": "/images/exames/ecodopplercardiografia.jpg",
+    "image": "/images/exames/strain.jpg",
     "imageAlt": "Strain",
     "content": [
       {
